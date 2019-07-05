@@ -24,7 +24,7 @@ for i in range(len(y_sum)):
 
 teste = []
 for i in range(77):
-   teste.append((array_sum[i])*20)
+   teste.append((array_sum[i])*7)
 
 
 plt.scatter(x_sum,y_sum,s=teste,c='red', alpha=0.5)
