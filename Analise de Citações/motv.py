@@ -28,5 +28,9 @@ for i in range(77):
 
 
 plt.scatter(x_sum,y_sum,s=teste,c='red', alpha=0.5)
+plt.ylabel('Motivação do Estudo', fontsize=15)
+plt.xlabel('Teoria de Aprendizagem', fontsize=15)
+plt.grid()
+
 #plt.show()
-plt.savefig('motivacaoporestudo.pdf')
+plt.savefig('motivacaoporteoria.pdf')
